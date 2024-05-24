@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeper/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/consul/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/pom.xml" />
+        <option value="$PROJECT_DIR$/activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sentinel" />
+        <module name="rocketmq" />
+        <module name="swagger2" />
+        <module name="eureka" />
+        <module name="ribbon" />
+        <module name="dubbo" />
+        <module name="zookeper" />
+        <module name="redisson" />
+        <module name="springsecurity" />
+        <module name="zuul" />
+        <module name="apollo" />
+        <module name="springcloud-config" />
+        <module name="rabbitmq" />
+        <module name="grpc" />
+        <module name="skywalking" />
+        <module name="nacos" />
+        <module name="shiro" />
+        <module name="activiti" />
+        <module name="consul" />
+        <module name="feign" />
+        <module name="seata" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
