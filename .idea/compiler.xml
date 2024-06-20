@@ -6,28 +6,62 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sentinel" />
-        <module name="rocketmq" />
-        <module name="swagger2" />
+        <module name="cloud-config-server" />
         <module name="eureka" />
-        <module name="ribbon" />
         <module name="dubbo" />
-        <module name="zookeper" />
         <module name="redisson" />
         <module name="springsecurity" />
+        <module name="skywalking" />
+        <module name="zookeeper-feign" />
+        <module name="nacos-server-consumer-feign" />
+        <module name="nacos-config" />
+        <module name="nacos-gateway" />
+        <module name="sentinel-dashboard" />
+        <module name="rocketmq" />
+        <module name="sentinel-consumer" />
+        <module name="swagger2" />
+        <module name="zookeeper-config-server" />
+        <module name="ribbon" />
+        <module name="nacos-server-provider" />
+        <module name="zookeeper-config-client" />
+        <module name="nacos-server-consumer" />
         <module name="zuul" />
         <module name="apollo" />
         <module name="springcloud-config" />
         <module name="rabbitmq" />
         <module name="grpc" />
-        <module name="skywalking" />
-        <module name="nacos" />
         <module name="shiro" />
         <module name="activiti" />
+        <module name="zookeeper-provider" />
+        <module name="zookeeper-ribbon" />
         <module name="consul" />
+        <module name="cloud-config-client" />
         <module name="feign" />
+        <module name="gateway-filter" />
         <module name="seata" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-config" options="-parameters" />
+      <module name="gateway-filter" options="-parameters" />
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-gateway" options="-parameters" />
+      <module name="nacos-server-consumer" options="-parameters" />
+      <module name="nacos-server-consumer-feign" options="-parameters" />
+      <module name="nacos-server-provider" options="-parameters" />
+      <module name="sentinel-consumer" options="-parameters" />
+      <module name="sentinel-dashboard" options="-parameters" />
+      <module name="zookeeper-config-client" options="-parameters" />
+      <module name="zookeeper-config-server" options="-parameters" />
+      <module name="zookeeper-feign" options="-parameters" />
+      <module name="zookeeper-provider" options="-parameters" />
+      <module name="zookeeper-ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
   </component>
 </project>

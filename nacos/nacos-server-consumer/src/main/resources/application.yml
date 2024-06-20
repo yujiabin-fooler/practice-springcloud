@@ -1,0 +1,31 @@
+## config
+
+## server
+server:
+  port: 8602
+  servlet:
+    context-path: /cloud-alibaba-consumer
+
+## spring
+spring:
+  application:
+    name: cloud-alibaba-server-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.140.10:8688
+
+## endpoint
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+## feign
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000

@@ -7,6 +7,14 @@
     <groupId>org.jiabin.practice</groupId>
     <artifactId>zookeper</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>zookeeper-config-client</module>
+        <module>zookeeper-config-server</module>
+        <module>zookeeper-feign</module>
+        <module>zookeeper-provider</module>
+        <module>zookeeper-ribbon</module>
+    </modules>
 
 
 </project>

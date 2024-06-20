@@ -1,0 +1,25 @@
+## spring cloud module
+
+## spring config
+spring:
+  application:
+    name: cloud-zuul
+  devtools:
+    restart:
+      enabled: false
+
+## tomcat server
+server:
+  port: 8090
+
+## spring cloud eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8088/eureka/
+
+## zuul config
+## 表明只要访问以 '/api-cloud/' 开头的多层目录都可以路由到 id 为 'cloud-service' 的服务上
+zuul:
+  routes:
+    cloud-service: /api-cloud/**

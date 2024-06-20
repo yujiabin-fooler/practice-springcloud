@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/alibaba-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/gateway-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/gateway-filter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/nacos-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/nacos-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos/nacos-server-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/sentinel-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/sentinel-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/sentinel-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel/sentinel-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeper/zookeeper-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeper/zookeeper-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeper/zookeeper-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeper/zookeeper-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeper/zookeeper-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul/src/main/java" charset="UTF-8" />
+  </component>
+</project>

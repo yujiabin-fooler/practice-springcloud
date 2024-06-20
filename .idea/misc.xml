@@ -25,10 +25,20 @@
         <option value="$PROJECT_DIR$/apollo/pom.xml" />
         <option value="$PROJECT_DIR$/activiti/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-config/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/alibaba-config/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
