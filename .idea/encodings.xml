@@ -6,14 +6,69 @@
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-account/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-account/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-stock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-stock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-saga/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-saga/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-account/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-account/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-stock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/seata-tcc-stock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-tcc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-xa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-xa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/seata-at-stock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/seata-at-stock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributed-transaction-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-customer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-cluster/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-client-customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-client-customer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-client-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/gateway-filter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/gateway-filter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/nacos-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/nacos-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-discovery/nacos-discovery-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-discovery/nacos-discovery-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-discovery/nacos-discovery-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-discovery/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer/src/main/java" charset="UTF-8" />

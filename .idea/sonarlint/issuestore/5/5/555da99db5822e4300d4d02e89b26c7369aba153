@@ -1,0 +1,9 @@
+
+X
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ
+j
+java:S3252P"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotBlank".(ƒåùùÿÿÿÿ
+j
+java:S3252R"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotBlank".(¹Ñ°«ùÿÿÿÿ
+e
+java:S3252S"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotBlank".(úöà

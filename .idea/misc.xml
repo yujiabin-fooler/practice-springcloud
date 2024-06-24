@@ -30,11 +30,15 @@
         <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-transaction-seata/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/alibaba-config/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed-transaction-seata/seata-at-stock/pom.xml" />
       </set>
     </option>
   </component>

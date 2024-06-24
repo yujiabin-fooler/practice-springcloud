@@ -6,39 +6,58 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-config-server" />
-        <module name="eureka" />
-        <module name="dubbo" />
+        <module name="seata-tcc-order" />
         <module name="redisson" />
-        <module name="springsecurity" />
+        <module name="eureka-server" />
         <module name="skywalking" />
-        <module name="zookeeper-feign" />
-        <module name="nacos-server-consumer-feign" />
-        <module name="nacos-config" />
+        <module name="seata-tcc-business" />
         <module name="nacos-gateway" />
-        <module name="sentinel-dashboard" />
-        <module name="rocketmq" />
-        <module name="sentinel-consumer" />
-        <module name="swagger2" />
         <module name="zookeeper-config-server" />
+        <module name="seata-tcc-account" />
         <module name="ribbon" />
-        <module name="nacos-server-provider" />
+        <module name="distributed-transaction-saga" />
+        <module name="eureka-cluster-client-customer" />
         <module name="zookeeper-config-client" />
-        <module name="nacos-server-consumer" />
         <module name="zuul" />
         <module name="apollo" />
         <module name="springcloud-config" />
-        <module name="rabbitmq" />
         <module name="grpc" />
-        <module name="shiro" />
+        <module name="eureka-client-customer" />
+        <module name="seata-at-business" />
         <module name="activiti" />
-        <module name="zookeeper-provider" />
         <module name="zookeeper-ribbon" />
+        <module name="seata-at-stock" />
         <module name="consul" />
-        <module name="cloud-config-client" />
+        <module name="eureka-client-provider" />
+        <module name="eureka-cluster-client-server" />
+        <module name="seata-at-order" />
         <module name="feign" />
         <module name="gateway-filter" />
+        <module name="cloud-config-server" />
+        <module name="seata-at-account" />
+        <module name="distributed-transaction-xa" />
+        <module name="dubbo" />
+        <module name="springsecurity" />
+        <module name="seata-tcc-eureka" />
+        <module name="zookeeper-feign" />
+        <module name="nacos-server-consumer-feign" />
+        <module name="nacos-config" />
+        <module name="sentinel-dashboard" />
+        <module name="eureka-cluster-client-provider" />
+        <module name="rocketmq" />
+        <module name="sentinel-consumer" />
+        <module name="swagger2" />
+        <module name="nacos-server-provider" />
+        <module name="nacos-server-consumer" />
+        <module name="nacos-discovery-provider" />
+        <module name="rabbitmq" />
+        <module name="shiro" />
+        <module name="zookeeper-provider" />
+        <module name="seata-at-eureka" />
+        <module name="seata-tcc-stock" />
+        <module name="cloud-config-client" />
         <module name="seata" />
+        <module name="nacos-discovery-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,12 +67,26 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="alibaba-config" options="-parameters" />
+      <module name="distributed-transaction-saga" options="-parameters" />
+      <module name="distributed-transaction-xa" options="-parameters" />
       <module name="gateway-filter" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
+      <module name="nacos-discovery-consumer" options="-parameters" />
+      <module name="nacos-discovery-provider" options="-parameters" />
       <module name="nacos-gateway" options="-parameters" />
       <module name="nacos-server-consumer" options="-parameters" />
       <module name="nacos-server-consumer-feign" options="-parameters" />
       <module name="nacos-server-provider" options="-parameters" />
+      <module name="seata-at-account" options="-parameters" />
+      <module name="seata-at-business" options="-parameters" />
+      <module name="seata-at-eureka" options="-parameters" />
+      <module name="seata-at-order" options="-parameters" />
+      <module name="seata-at-stock" options="-parameters" />
+      <module name="seata-tcc-account" options="-parameters" />
+      <module name="seata-tcc-business" options="-parameters" />
+      <module name="seata-tcc-eureka" options="-parameters" />
+      <module name="seata-tcc-order" options="-parameters" />
+      <module name="seata-tcc-stock" options="-parameters" />
       <module name="sentinel-consumer" options="-parameters" />
       <module name="sentinel-dashboard" options="-parameters" />
       <module name="zookeeper-config-client" options="-parameters" />
