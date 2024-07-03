@@ -1,0 +1,11 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8õë»é„2J$d0e1b305-100f-4100-b5df-d997bb15526f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8öë»é„2J$2aba561d-f2f7-4b0b-90c3-c5acfc08c559
+†
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‘¯›øÿÿÿÿJ$1c1e151b-5a8f-44b0-b4f6-7bbe92785b12
+f	java:S106"+Replace this use of System.out by a logger.(Î’ÛÚJ$4a9416aa-80fa-4a6f-83f4-48e2c629019a
+e	java:S106"+Replace this use of System.out by a logger.(”äÔ6J$9ae9845b-5270-40e4-9394-29de3cf4f448
+k
+java:S1068"*Remove this unused "logger" private field.(‘¯›øÿÿÿÿJ$0227fb6d-e10b-4bc3-b3a1-0ae869e4071f

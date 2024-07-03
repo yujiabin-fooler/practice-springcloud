@@ -6,18 +6,18 @@
 
     <artifactId>eureka-server</artifactId>
 
+    <parent>
+        <groupId>org.jiabin.practice</groupId>
+        <artifactId>eureka</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- Spring Boot 启动父依赖 -->
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.4.RELEASE</version>
-    </parent>
 
     <dependencies>
         <!-- Spring Cloud Netflix Eureka Server 依赖 -->

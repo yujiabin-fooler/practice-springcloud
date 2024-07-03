@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="seata-tcc-order" />
+        <module name="feign-provider-client" />
         <module name="redisson" />
         <module name="eureka-server" />
         <module name="skywalking" />
         <module name="seata-tcc-business" />
         <module name="nacos-gateway" />
+        <module name="feign-consumer-client" />
         <module name="zookeeper-config-server" />
         <module name="seata-tcc-account" />
         <module name="ribbon" />
@@ -31,7 +33,6 @@
         <module name="eureka-client-provider" />
         <module name="eureka-cluster-client-server" />
         <module name="seata-at-order" />
-        <module name="feign" />
         <module name="gateway-filter" />
         <module name="cloud-config-server" />
         <module name="seata-at-account" />
@@ -69,6 +70,8 @@
       <module name="alibaba-config" options="-parameters" />
       <module name="distributed-transaction-saga" options="-parameters" />
       <module name="distributed-transaction-xa" options="-parameters" />
+      <module name="feign-consumer-client" options="-parameters" />
+      <module name="feign-provider-client" options="-parameters" />
       <module name="gateway-filter" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-discovery-consumer" options="-parameters" />

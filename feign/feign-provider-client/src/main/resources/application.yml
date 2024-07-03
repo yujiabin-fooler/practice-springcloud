@@ -1,0 +1,15 @@
+
+
+server:
+  port: 8090
+spring:
+  application:
+    name: nacos-feign-example
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+
+
+
+        

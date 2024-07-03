@@ -1,0 +1,14 @@
+
+
+server:
+  port: 8091
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 你的注册中心IP:8848
+      application:
+        name: feign-example-01
+
+
+        
