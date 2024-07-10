@@ -3,6 +3,24 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/alibaba-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apollo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/gateway-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/gateway-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/oder-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/oder-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/order-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/order-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/starter-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/starter-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/java" charset="UTF-8" />

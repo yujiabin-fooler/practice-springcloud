@@ -1,0 +1,34 @@
+server:
+  port: 7201
+
+spring:
+  application:
+    name: user-app
+  cloud:
+    nacos:
+      discovery:
+        namespace: spring-cloud-gray-example
+        metadata:
+          version: V2
+      config:
+        namespace: spring-cloud-gray-example
+        file-extension: yaml
+        shared-configs:
+          - data-id: common-config.yaml
+            refresh: true
+      server-addr: 127.0.0.1:8848
+
+#kerwin:
+#  tool:
+#    gray:
+#      load: true
+#      version:
+#        prodVersion: V1
+#        grayVersion: V2
+#
+#user-app:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.kerwin.gray.loadbalancer.GrayRoundRobinRule
+#order-app:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.kerwin.gray.loadbalancer.GrayRoundRobinRule

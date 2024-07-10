@@ -1,0 +1,59 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: gateway-app
+  cloud:
+    nacos:
+      discovery:
+        namespace: spring-cloud-gray-example
+        metadata:
+          version: V2
+      config:
+        namespace: spring-cloud-gray-example
+        file-extension: yaml
+        shared-configs:
+          - data-id: common-config.yaml
+            refresh: true
+      server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: order-app
+          uri: lb://order-app
+          predicates:
+            - Path=/order-api/**  # 匹配请求路径为/order-api/**的请求
+          filters:
+            - StripPrefix=1  # 去掉请求路径的前缀
+        - id: user-app
+          uri: lb://user-app
+          predicates:
+            - Path=/user-api/**  # 匹配请求路径为/user-api/**的请求
+          filters:
+            - StripPrefix=1  # 去掉请求路径的前缀
+
+
+#kerwin:
+#  tool:
+#    gray:
+#      load: true
+#      gateway:
+#        enabled: true
+#        grayHeadKey: gray
+#        grayHeadValue: gray-996
+#        grayIPList:
+#          - '127.0.0.1'
+#        grayCityList:
+#          - '本地'
+#      version:
+#        prodVersion: V1
+#        grayVersion: V2
+
+
+#user-app:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.kerwin.gray.loadbalancer.GrayRoundRobinRule
+#order-app:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.kerwin.gray.loadbalancer.GrayRoundRobinRule
+
