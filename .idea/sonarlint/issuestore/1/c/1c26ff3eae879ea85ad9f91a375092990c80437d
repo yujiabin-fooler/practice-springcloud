@@ -1,11 +1,11 @@
 
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8õë»é„2J$6567b0fa-ad93-460f-934d-1f78856786e2
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8õë»é„2J$dd60f917-0a3e-4c3e-89a5-10a063ab975f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8öë»é„2J$5bdc9e70-c8bb-4dbe-a6ae-6363e0c48232
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8öë»é„2J$8f8cf310-0b0f-43bb-a312-090938b39eaa
 †
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‘¯›øÿÿÿÿJ$4da43537-bdc3-4612-8ddd-83fa71019597
-f	java:S106"+Replace this use of System.out by a logger.(Î’ÛÚJ$8c205062-933b-4e00-96b5-f64b3ac53695
-e	java:S106"+Replace this use of System.out by a logger.(”äÔ6J$1283d65b-032d-4105-a1d0-4f225c3e1839
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‘¯›øÿÿÿÿJ$f0f7b1ae-aa2e-4039-be1c-e9bd0e9c1480
+f	java:S106"+Replace this use of System.out by a logger.(Î’ÛÚJ$8f69ded3-57d0-4b41-b184-cd2554754a86
+e	java:S106"+Replace this use of System.out by a logger.(”äÔ6J$7c8f5f58-606c-4d44-9af2-7d37afc2b991
 k
-java:S1068"*Remove this unused "logger" private field.(‘¯›øÿÿÿÿJ$a68b6c7c-dd6c-4aa1-b294-6ede96832be6
+java:S1068"*Remove this unused "logger" private field.(‘¯›øÿÿÿÿJ$f1b43877-0e2a-4fa7-81e2-22d408ea1049

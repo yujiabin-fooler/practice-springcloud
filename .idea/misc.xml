@@ -34,12 +34,24 @@
         <option value="$PROJECT_DIR$/eureka-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/canary-deployment/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-mircoservice/pom.xml" />
+        <option value="$PROJECT_DIR$/stream/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-micro-service/pom.xml" />
+        <option value="$PROJECT_DIR$/sa-token/pom.xml" />
+        <option value="$PROJECT_DIR$/knife4j/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-micro-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/cloud-config-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/alibaba-config/pom.xml" />
         <option value="$PROJECT_DIR$/distributed-transaction-seata/seata-at-stock/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/security-source-server/pom.xml" />
       </set>
     </option>
   </component>

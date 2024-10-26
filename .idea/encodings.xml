@@ -25,6 +25,22 @@
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-remote-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-remote-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/consul-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-account/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-account/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/distributed-transaction-seata/distributed-transaction-at/seata-at-business/src/main/java" charset="UTF-8" />
@@ -65,6 +81,14 @@
     <file url="file://$PROJECT_DIR$/eureka-cluster/eureka-cluster-client-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-remote-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-remote-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-server-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-server-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/eureka-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-micro-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka/eureka-client-customer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka/eureka-client-customer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka/eureka-client-provider/src/main/java" charset="UTF-8" />
@@ -85,6 +109,14 @@
     <file url="file://$PROJECT_DIR$/gateway/nacos-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/knife4j-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/knife4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config/nacos-discovery-provider/src/main/java" charset="UTF-8" />
@@ -96,16 +128,76 @@
     <file url="file://$PROJECT_DIR$/nacos-discovery/nacos-discovery-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-discovery/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-loadbalancer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-loadbalancer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-remote-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-remote-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/nacos-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-micro-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos/nacos-server-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/sa-token-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-token/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-storage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/seata-storage-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/sentinel-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/sentinel-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel/sentinel-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel/sentinel-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel/sentinel-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel/sentinel-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/skywalking-feign-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/skywalking-feign-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/skywalking-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/skywalking-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skywalking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/authorization-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-authorization-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-source-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/security-source-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeepe-microservice-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeepe-microservice-config-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeeper-microservice-remote-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeeper-microservice-remote-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeeper-microservice-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-mircoservice/zookeeper-microservice-user-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeper/zookeeper-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeper/zookeeper-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeper/zookeeper-feign/src/main/java" charset="UTF-8" />

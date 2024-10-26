@@ -1,0 +1,40 @@
+server:
+  port: 9100 #指定运行端口
+spring:
+  application:
+    name: sas-gateway #指定服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+    gateway:
+      default-filters: #过滤器配置
+        - TokenRelay= #令牌中继（会从认证信息中获取access_token并放入下游请求的头中）
+        - StripPrefix=1 #对指定数量的路径前缀进行去除的过滤器
+      routes: #路由配置
+        - id: sas-resource-server #路由ID
+          uri: lb://sas-resource-server #路由地址（负载均衡使用lb协议）
+          predicates:
+            - Path=/resource/** #路由匹配路径
+  security:
+    oauth2:
+      resourceserver: #Oauth2资源服务配置
+        jwt:
+          issuer-uri: http://192.168.3.48:9401 #Token的签发地址（可以是认证服务地址）
+      client:
+        provider: #Oauth2认证提供者相关配置
+          custom-issuer: #自定义provider的名称
+            issuer-uri: http://192.168.3.48:9401 #Token的签发地址（可以是认证服务地址）
+            user-info-uri: ${spring.security.oauth2.client.provider.custom-issuer.issuer-uri}/user #获取用户信息的地址
+        registration: #Oauth2注册客户端配置
+          messaging-client-oidc: #自定义client的名称
+            provider: custom-issuer #配置认证提供者
+            client-name: gateway #客户端名称
+            client-id: messaging-client #客户端client_id
+            client-secret: 123456 #客户端client_secret
+            client-authentication-method: client_secret_basic #客户端认证方式
+            authorization-grant-type: authorization_code #Oauth2的授权模式
+            redirect-uri: http://127.0.0.1:9100/login/oauth2/code/messaging-client-oidc #回调地址，这里设置为Oauth2 Client使用code换取token的接口
+            scope: #授权范围
+              - message.read
+              - message.write

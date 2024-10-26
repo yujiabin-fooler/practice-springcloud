@@ -1,14 +1,15 @@
-
-
 server:
-  port: 8091
+  port: 8701
 spring:
+  application:
+    name: feign-service
   cloud:
     nacos:
       discovery:
-        server-addr: 你的注册中心IP:8848
-      application:
-        name: feign-example-01
-
-
-        
+        server-addr: localhost:8848 #配置Nacos地址
+    openfeign:
+      circuitbreaker:
+        enabled: true #开启Circuit Breaker的服务降级功能
+logging:
+  level:
+    org.jiabin.feign.consumer.client.practice.service.UserService: debug

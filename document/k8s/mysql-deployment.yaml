@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  # 指定Deployment的名称
+  name: mysql-deployment
+  # 指定Deployment的标签
+  labels:
+    app: mysql
+spec:
+  # 指定创建的Pod副本数量
+  replicas: 1
+  # 定义如何查找要管理的Pod
+  selector:
+    # 管理标签app为mysql的Pod
+    matchLabels:
+      app: mysql
+  # 指定创建Pod的模板
+  template:
+    metadata:
+      # 给Pod打上app:mysql标签
+      labels:
+        app: mysql
+    # Pod的模板规约
+    spec:
+      containers:
+        - name: mysql
+          # 指定容器镜像
+          image: mysql:5.7
+          # 指定开放的端口
+          ports:
+            - containerPort: 3306
+          # 设置环境变量
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+          # 使用存储卷
+          volumeMounts:
+            # 将存储卷挂载到容器内部路径
+            - mountPath: /var/log/mysql
+              name: log-volume
+            - mountPath: /var/lib/mysql
+              name: data-volume
+      # 定义存储卷
+      volumes:
+        - name: log-volume
+          # hostPath类型存储卷在宿主机上的路径
+          hostPath:
+            path: /home/docker/mydata/mysql/log
+            # 当目录不存在时创建
+            type: DirectoryOrCreate
+        - name: data-volume
+          hostPath:
+            path: /home/docker/mydata/mysql/data
+            type: DirectoryOrCreate

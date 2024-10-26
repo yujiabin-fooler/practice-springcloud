@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mall-tiny-k8s-deployment
+  labels:
+    app: mall-tiny-k8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mall-tiny-k8s
+  template:
+    metadata:
+      labels:
+        app: mall-tiny-k8s
+    spec:
+      containers:
+        - name: mall-tiny-k8s
+          # 指定Docker Hub中的镜像地址
+          image: 192.168.3.102:5000/mall/mall-tiny-k8s:1.0-SNAPSHOT
+          ports:
+            - containerPort: 8088
+          env:
+            # 指定数据库连接地址
+            - name: spring.datasource.url
+              value: jdbc:mysql://mysql-service:3306/mall_tiny?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+            # 指定日志文件路径
+            - name: logging.path
+              value: /var/logs
+          volumeMounts:
+            - mountPath: /var/logs
+              name: log-volume
+      volumes:
+        - name: log-volume
+          hostPath:
+            path: /mydata/app/mall-tiny-k8s/logs
+            type: DirectoryOrCreate

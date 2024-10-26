@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mall-tiny-k8s-service
+spec:
+  type: NodePort
+  selector:
+    app: mall-tiny-k8s
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8088
+      targetPort: 8088
+      # Node上的静态端口
+      nodePort: 30180

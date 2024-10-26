@@ -1,0 +1,12 @@
+server:
+  port: 8701
+spring:
+  application:
+    name: sky-feign-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+logging:
+  level:
+    org.jiabin.skywalking.feign.service.practice.service.UserService: debug

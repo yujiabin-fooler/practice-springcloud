@@ -1,0 +1,15 @@
+server:
+  port: 9601 #指定运行端口
+spring:
+  application:
+    name: sas-resource-server #指定服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+  security:
+    oauth2:
+      resourceserver: #Oauth2资源服务配置
+        jwt:
+          issuer-uri: http://192.168.3.48:9401 #Token的签发地址（可以是认证服务地址）
+

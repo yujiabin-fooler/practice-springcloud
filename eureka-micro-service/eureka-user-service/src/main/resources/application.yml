@@ -1,0 +1,16 @@
+server:
+  port: 8206
+spring:
+  application:
+    name: eureka-user-service
+eureka:
+  client:
+    register-with-eureka: true #注册到Eureka的注册中心
+    fetch-registry: true #获取注册实例列表
+    service-url:
+      defaultZone: http://localhost:8001/eureka/ #配置注册中心地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

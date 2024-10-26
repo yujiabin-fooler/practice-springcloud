@@ -1,0 +1,13 @@
+server:
+  port: 8308
+spring:
+  application:
+    name: consul-remote-service
+  cloud:
+    consul: #Consul服务注册发现配置
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+service-url:
+  consul-user-service: http://consul-user-service

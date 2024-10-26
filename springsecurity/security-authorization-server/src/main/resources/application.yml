@@ -1,0 +1,13 @@
+server:
+  port: 9401 #指定运行端口
+spring:
+  application:
+    name: authorization-server #指定服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+  datasource:
+    url: jdbc:mysql://localhost:3306/authorization-server?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root

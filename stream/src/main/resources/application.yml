@@ -1,0 +1,40 @@
+server:
+  port: 8206
+spring:
+  application:
+    name: stream-service
+  cloud:
+    stream:
+      bindings:
+        consumeMsg-in-0: #可以根据消费者方法名称来绑定到交换机，input格式：<functionName>-in-<index>
+          destination: consume-msg #设置交换机的名称
+          group: stream-service #设置交换机的名称
+        consumeUser-in-0:
+          destination: consume-user
+          group: stream-service
+        produceMsg-out-0: #可以根据消费者方法名称来绑定到交换机，output格式：<functionName>-out-<index>
+          destination: consume-msg
+          group: stream-service
+        convertFunction-in-0:
+          destination: convert-function
+          group: stream-service
+        convertFunction-out-0:
+          destination: consume-convert-msg
+          group: stream-service
+        consumeConvertMsg-in-0:
+          destination: consume-convert-msg
+          group: stream-service
+    function:
+      definition: consumeMsg;consumeUser;produceMsg;convertFunction;consumeConvertMsg
+  rabbitmq: #RabbitMQ连接信息配置
+    host: localhost
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

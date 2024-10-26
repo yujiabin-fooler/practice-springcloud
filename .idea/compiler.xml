@@ -6,108 +6,184 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-account-service" />
+        <module name="nacos-remote-service" />
         <module name="seata-tcc-order" />
         <module name="feign-provider-client" />
         <module name="redisson" />
+        <module name="zookeepe-microservice-config-client" />
         <module name="eureka-server" />
-        <module name="skywalking" />
         <module name="starter-module" />
+        <module name="eureka-user-service" />
         <module name="user-app" />
+        <module name="nacos-user-service" />
         <module name="seata-tcc-business" />
+        <module name="zookeeper-microservice-user-service" />
         <module name="nacos-gateway" />
+        <module name="sentinel-service" />
+        <module name="consul-user-service" />
         <module name="feign-consumer-client" />
+        <module name="seata-order-service" />
+        <module name="security-gateway" />
+        <module name="zookeeper-microservice-remote-service" />
+        <module name="consul-remote-service" />
         <module name="zookeeper-config-server" />
         <module name="seata-tcc-account" />
         <module name="ribbon" />
         <module name="distributed-transaction-saga" />
         <module name="eureka-cluster-client-customer" />
         <module name="zookeeper-config-client" />
+        <module name="consul-config-client" />
         <module name="zuul" />
         <module name="apollo" />
+        <module name="sa-token-common" />
+        <module name="knife4j-user" />
         <module name="springcloud-config" />
         <module name="grpc" />
         <module name="eureka-client-customer" />
+        <module name="security-resource-server" />
         <module name="seata-at-business" />
         <module name="activiti" />
         <module name="zookeeper-ribbon" />
         <module name="seata-at-stock" />
-        <module name="consul" />
         <module name="eureka-client-provider" />
         <module name="eureka-cluster-client-server" />
         <module name="seata-at-order" />
         <module name="gateway-filter" />
+        <module name="sa-token-api" />
+        <module name="knife4j-gateway" />
         <module name="cloud-config-server" />
         <module name="seata-at-account" />
         <module name="distributed-transaction-xa" />
+        <module name="eureka-server-service" />
+        <module name="config-client" />
         <module name="dubbo" />
-        <module name="springsecurity" />
+        <module name="knife4j-order" />
         <module name="gateway-module" />
         <module name="seata-tcc-eureka" />
+        <module name="skywalking-user-service" />
+        <module name="seata-storage-service" />
         <module name="zookeeper-feign" />
         <module name="nacos-server-consumer-feign" />
         <module name="order-module" />
         <module name="common" />
         <module name="nacos-config" />
+        <module name="stream" />
+        <module name="nacos-loadbalancer-service" />
         <module name="user-client" />
         <module name="sentinel-dashboard" />
         <module name="eureka-cluster-client-provider" />
+        <module name="sa-token-gateway" />
         <module name="rocketmq" />
         <module name="sentinel-consumer" />
         <module name="swagger2" />
+        <module name="security-authorization-server" />
         <module name="nacos-server-provider" />
         <module name="nacos-server-consumer" />
         <module name="nacos-discovery-provider" />
+        <module name="skywalking-feign-service" />
         <module name="rabbitmq" />
+        <module name="config-server" />
         <module name="shiro" />
         <module name="zookeeper-provider" />
+        <module name="nacos-config-client" />
+        <module name="eureka-remote-service" />
         <module name="seata-at-eureka" />
         <module name="seata-tcc-stock" />
+        <module name="sa-token-auth" />
         <module name="cloud-config-client" />
-        <module name="seata" />
         <module name="nacos-discovery-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alibaba-config" target="1.8" />
+      <module name="authorization-server" target="1.8" />
+      <module name="config-client-service" target="1.8" />
       <module name="oder-module" target="1.8" />
+      <module name="security-source-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="alibaba-config" options="-parameters" />
+      <module name="authorization-server" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="consul" options="-parameters" />
+      <module name="consul-config-client" options="-parameters" />
+      <module name="consul-remote-service" options="-parameters" />
+      <module name="consul-user-service" options="-parameters" />
       <module name="distributed-transaction-saga" options="-parameters" />
       <module name="distributed-transaction-xa" options="-parameters" />
+      <module name="eureka-micro-service" options="-parameters" />
+      <module name="eureka-remote-service" options="-parameters" />
+      <module name="eureka-server-service" options="-parameters" />
+      <module name="eureka-user-service" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="feign-consumer-client" options="-parameters" />
       <module name="feign-provider-client" options="-parameters" />
       <module name="gateway-filter" options="-parameters" />
       <module name="gateway-module" options="-parameters" />
+      <module name="knife4j" options="-parameters" />
+      <module name="knife4j-gateway" options="-parameters" />
+      <module name="knife4j-order" options="-parameters" />
+      <module name="knife4j-user" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
+      <module name="nacos-config-client" options="-parameters" />
       <module name="nacos-discovery-consumer" options="-parameters" />
       <module name="nacos-discovery-provider" options="-parameters" />
       <module name="nacos-gateway" options="-parameters" />
+      <module name="nacos-loadbalancer-service" options="-parameters" />
+      <module name="nacos-micro-service" options="-parameters" />
+      <module name="nacos-remote-service" options="-parameters" />
       <module name="nacos-server-consumer" options="-parameters" />
       <module name="nacos-server-consumer-feign" options="-parameters" />
       <module name="nacos-server-provider" options="-parameters" />
+      <module name="nacos-user-service" options="-parameters" />
       <module name="order-module" options="-parameters" />
+      <module name="sa-token" options="-parameters" />
+      <module name="sa-token-api" options="-parameters" />
+      <module name="sa-token-auth" options="-parameters" />
+      <module name="sa-token-common" options="-parameters" />
+      <module name="sa-token-gateway" options="-parameters" />
+      <module name="seata" options="-parameters" />
+      <module name="seata-account-service" options="-parameters" />
       <module name="seata-at-account" options="-parameters" />
       <module name="seata-at-business" options="-parameters" />
       <module name="seata-at-eureka" options="-parameters" />
       <module name="seata-at-order" options="-parameters" />
       <module name="seata-at-stock" options="-parameters" />
+      <module name="seata-order-service" options="-parameters" />
+      <module name="seata-storage-service" options="-parameters" />
       <module name="seata-tcc-account" options="-parameters" />
       <module name="seata-tcc-business" options="-parameters" />
       <module name="seata-tcc-eureka" options="-parameters" />
       <module name="seata-tcc-order" options="-parameters" />
       <module name="seata-tcc-stock" options="-parameters" />
+      <module name="security-authorization-server" options="-parameters" />
+      <module name="security-gateway" options="-parameters" />
+      <module name="security-resource-server" options="-parameters" />
+      <module name="security-source-server" options="-parameters" />
       <module name="sentinel-consumer" options="-parameters" />
       <module name="sentinel-dashboard" options="-parameters" />
+      <module name="sentinel-microservice" options="-parameters" />
+      <module name="sentinel-service" options="-parameters" />
+      <module name="skywalking" options="-parameters" />
+      <module name="skywalking-feign-service" options="-parameters" />
+      <module name="skywalking-user-service" options="-parameters" />
+      <module name="springsecurity" options="-parameters" />
       <module name="starter-module" options="-parameters" />
       <module name="user-app" options="-parameters" />
       <module name="user-client" options="-parameters" />
+      <module name="zookeepe-microservice-config-client" options="-parameters" />
       <module name="zookeeper-config-client" options="-parameters" />
       <module name="zookeeper-config-server" options="-parameters" />
       <module name="zookeeper-feign" options="-parameters" />
+      <module name="zookeeper-microservice-remote-service" options="-parameters" />
+      <module name="zookeeper-microservice-user-service" options="-parameters" />
+      <module name="zookeeper-mircoservice" options="-parameters" />
       <module name="zookeeper-provider" options="-parameters" />
       <module name="zookeeper-ribbon" options="-parameters" />
       <module name="zuul" options="-parameters" />

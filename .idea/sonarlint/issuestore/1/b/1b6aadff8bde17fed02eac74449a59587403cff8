@@ -1,0 +1,21 @@
+
+T
+java:S2629*"7Use the built-in formatting to construct this argument.(ó¸Æ8Ïì‘”ˆ2
+Y
+java:S2629;"7Use the built-in formatting to construct this argument.(ä§ö–üÿÿÿÿ8Ïì‘”ˆ2
+T
+java:S2589#"7Remove this expression which always evaluates to "true"(÷—Ó¦8Àí‘”ˆ2
+½
+java:S1186O"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¤ÅŸ¾J$26d3d4f1-e784-451f-9811-b04f10e3b8f0
+W
+java:S3416"5Update this logger to use "GrayRoundRobinRule.class".(ÓÂßúÿÿÿÿ8Äí‘”ˆ2
+L
+java:S1172"*Remove this unused method parameter "key".(ÍÅğŞùÿÿÿÿ8Õí‘”ˆ2
+^
+java:S3457*"AFormat specifiers should be used instead of string concatenation.(ó¸Æ8Ùí‘”ˆ2
+c
+java:S3457;"AFormat specifiers should be used instead of string concatenation.(ä§ö–üÿÿÿÿ8Ûí‘”ˆ2
+{
+java:S1068":Remove this unused "AVAILABLE_ONLY_SERVERS" private field.(şÊÉäşÿÿÿÿJ$a816f3bd-e220-4c0d-a50a-8df6b14e40d6
+p
+java:S1068"/Remove this unused "ALL_SERVERS" private field.(‘ÄåúıÿÿÿÿJ$b5d17094-e509-45bc-be72-2a9651854b0f

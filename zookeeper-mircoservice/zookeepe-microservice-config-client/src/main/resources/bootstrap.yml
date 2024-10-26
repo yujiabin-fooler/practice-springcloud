@@ -1,0 +1,18 @@
+server:
+  port: 9101
+spring:
+  application:
+    name: zookeeper-config-client
+  cloud:
+    zookeeper:
+      # zookeeper连接地址
+      connect-string: localhost:2181
+      discovery:
+        # 作为服务注册
+        register: true
+        # 注册时使用IP地址而不是hostname
+        prefer-ip-address: true
+      config:
+        enabled: true
+        root: config
+        defaultContext: ${spring.application.name}
