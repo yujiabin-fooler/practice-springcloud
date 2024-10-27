@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: Spring Cloud Alibaba Config 多环境测试控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/13
  */
 @Slf4j

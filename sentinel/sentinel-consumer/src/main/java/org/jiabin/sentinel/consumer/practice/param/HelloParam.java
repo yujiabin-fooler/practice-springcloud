@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * @Description: 用户实体类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 @Data

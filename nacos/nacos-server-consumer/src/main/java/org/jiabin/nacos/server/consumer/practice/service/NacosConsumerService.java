@@ -4,7 +4,7 @@ import org.jiabin.nacos.server.consumer.practice.param.HelloParam;
 
 /**
  * @Description: Nacos 服务消费者业务层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 public interface NacosConsumerService {

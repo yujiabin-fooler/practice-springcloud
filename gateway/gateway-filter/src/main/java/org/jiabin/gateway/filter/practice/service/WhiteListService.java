@@ -5,7 +5,7 @@ import org.jiabin.gateway.filter.practice.model.*;
 
 /**
  * @Description: 白名单业务接口
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/23
  */
 public interface WhiteListService {

@@ -1,0 +1,47 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: circuit-breaker-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+    openfeign:
+      circuitbreaker:
+        enabled: true #开启Circuit Breaker的服务降级功能
+service-url:
+  user-service: http://nacos-user-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+resilience4j:
+  circuitbreaker:
+    instances:
+      circleBreakerApi:
+        failureRateThreshold: 50 #以百分比配置失败率阈值。当失败率等于或大于阈值时，断路器状态并关闭变为开启，并进行服务降级。
+        minimumNumberOfCalls: 5 #断路器计算失败率或慢调用率之前所需的最小调用数（每个滑动窗口周期）
+        automaticTransitionFromOpenToHalfOpenEnabled: true #如果设置为true，则意味着断路器将自动从开启状态过渡到半开状态，并且不需要调用来触发转换。
+        waitDurationInOpenState: 5s #断路器从开启过渡到半开应等待的时间。
+        permittedNumberOfCallsInHalfOpenState: 3 #断路器在半开状态下允许通过的调用次数。
+        slidingWindowSize: 10 #配置滑动窗口的大小。
+        slidingWindowType: COUNT_BASED #配置滑动窗口的类型，当断路器关闭时，将调用的结果记录在滑动窗口中。滑动窗口的类型可以是COUNT_BASED或TIME_BASED。
+  retry:
+    instances:
+      retryApi:
+        maxAttempts: 2 #最大尝试次数
+        waitDuration: 1s #两次重试之间的时间间隔
+  ratelimiter:
+    instances:
+      rateLimiterApi:
+        limitForPeriod: 5 #在一次刷新周期内，允许执行的最大请求数
+        limitRefreshPeriod: 60s #限流器每隔limitRefreshPeriod刷新一次，将允许处理的最大请求数量重置为limitForPeriod。
+        timeoutDuration: 0s #线程等待调用的时间
+  timelimiter:
+    instances:
+      timeLimiterApi:
+        timeoutDuration: 2s #设置超时时间
+        cancelRunningFuture: true  #超时是否取消
+

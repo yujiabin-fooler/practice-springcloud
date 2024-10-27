@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @Description: 路由器转换工具类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/21
  */
 public class RouteConvert {

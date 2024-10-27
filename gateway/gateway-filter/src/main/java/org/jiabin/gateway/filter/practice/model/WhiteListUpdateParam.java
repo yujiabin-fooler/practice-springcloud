@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * @Description: 网关路由白名单更新单条
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/23
  */
 @Data

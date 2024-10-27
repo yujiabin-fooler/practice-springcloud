@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: 测试接口控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/22
  */
 @Slf4j

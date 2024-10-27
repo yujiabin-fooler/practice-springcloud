@@ -6,10 +6,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Description: nacos 服务提供者控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/1
  */
 @Slf4j

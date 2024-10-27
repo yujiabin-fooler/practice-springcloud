@@ -1,0 +1,9 @@
+server:
+  port: 9301 #指定运行端口
+spring:
+  application:
+    name: admin-server #指定服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址

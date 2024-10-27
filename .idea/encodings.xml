@@ -21,6 +21,12 @@
     <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-app/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/canary-deployment/user-module/user-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/circuit-breaker-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/circuit-breaker-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/feign-remote-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/feign-remote-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circuitbreaker/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-config/cloud-config-server/src/main/java" charset="UTF-8" />
@@ -162,6 +168,18 @@
     <file url="file://$PROJECT_DIR$/seata/seata-storage-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-security-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-security-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/admin-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/authorization-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-authorization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/nacos-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-microservice/nacos-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-microservice/sentinel-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-microservice/sentinel-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-microservice/src/main/java" charset="UTF-8" />

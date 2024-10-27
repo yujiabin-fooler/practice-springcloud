@@ -1,0 +1,31 @@
+server:
+  port: 9305
+spring:
+  application:
+    name: admin-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+#  boot:
+#    admin:
+#      client:
+#        username: macro
+#        password: 123456
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    env:
+      show-values: always #默认Actuator的环境变量会以****显示，这里开启显示
+    configprops:
+      show-values: always #默认Actuator的配置属性会以****显示，这里开启显示
+    info:
+      enabled: true
+logging:
+  file:
+    name: admin-client.log

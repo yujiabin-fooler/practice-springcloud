@@ -23,7 +23,7 @@ import java.util.Objects;
 
 /**
  * @Description: 动态路由业务实现类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/19
  */
 @Slf4j

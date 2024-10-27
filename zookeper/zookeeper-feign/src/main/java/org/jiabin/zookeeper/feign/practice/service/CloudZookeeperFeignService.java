@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @Description: Spring Cloud Zookeeper 分布式服务消费者-Feign 业务层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/2/25
  */
 @FeignClient(value = "cloud-zookeeper-provider")

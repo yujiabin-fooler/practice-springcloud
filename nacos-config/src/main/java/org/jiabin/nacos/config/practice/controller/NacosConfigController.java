@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: Spring Cloud Alibaba Nacos 分布式配置中心控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/9
  */
 @Slf4j

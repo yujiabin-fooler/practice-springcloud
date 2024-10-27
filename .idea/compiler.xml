@@ -10,8 +10,10 @@
         <module name="nacos-remote-service" />
         <module name="seata-tcc-order" />
         <module name="feign-provider-client" />
+        <module name="feign-remote-service" />
         <module name="redisson" />
         <module name="zookeepe-microservice-config-client" />
+        <module name="admin-security-server" />
         <module name="eureka-server" />
         <module name="starter-module" />
         <module name="eureka-user-service" />
@@ -24,6 +26,7 @@
         <module name="consul-user-service" />
         <module name="feign-consumer-client" />
         <module name="seata-order-service" />
+        <module name="nacos-service" />
         <module name="security-gateway" />
         <module name="zookeeper-microservice-remote-service" />
         <module name="consul-remote-service" />
@@ -46,12 +49,16 @@
         <module name="activiti" />
         <module name="zookeeper-ribbon" />
         <module name="seata-at-stock" />
+        <module name="authorization-server" />
         <module name="eureka-client-provider" />
         <module name="eureka-cluster-client-server" />
+        <module name="admin-server" />
         <module name="seata-at-order" />
         <module name="gateway-filter" />
         <module name="sa-token-api" />
         <module name="knife4j-gateway" />
+        <module name="admin-client" />
+        <module name="circuit-breaker-service" />
         <module name="cloud-config-server" />
         <module name="seata-at-account" />
         <module name="distributed-transaction-xa" />
@@ -97,7 +104,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alibaba-config" target="1.8" />
-      <module name="authorization-server" target="1.8" />
       <module name="config-client-service" target="1.8" />
       <module name="oder-module" target="1.8" />
       <module name="security-source-server" target="1.8" />
@@ -105,8 +111,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-security-server" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
       <module name="alibaba-config" options="-parameters" />
       <module name="authorization-server" options="-parameters" />
+      <module name="circuit-breaker-service" options="-parameters" />
+      <module name="circuitbreaker" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config-client" options="-parameters" />
@@ -124,6 +135,7 @@
       <module name="feign" options="-parameters" />
       <module name="feign-consumer-client" options="-parameters" />
       <module name="feign-provider-client" options="-parameters" />
+      <module name="feign-remote-service" options="-parameters" />
       <module name="gateway-filter" options="-parameters" />
       <module name="gateway-module" options="-parameters" />
       <module name="knife4j" options="-parameters" />
@@ -141,6 +153,7 @@
       <module name="nacos-server-consumer" options="-parameters" />
       <module name="nacos-server-consumer-feign" options="-parameters" />
       <module name="nacos-server-provider" options="-parameters" />
+      <module name="nacos-service" options="-parameters" />
       <module name="nacos-user-service" options="-parameters" />
       <module name="order-module" options="-parameters" />
       <module name="sa-token" options="-parameters" />
@@ -162,6 +175,7 @@
       <module name="seata-tcc-eureka" options="-parameters" />
       <module name="seata-tcc-order" options="-parameters" />
       <module name="seata-tcc-stock" options="-parameters" />
+      <module name="security-authorization" options="-parameters" />
       <module name="security-authorization-server" options="-parameters" />
       <module name="security-gateway" options="-parameters" />
       <module name="security-resource-server" options="-parameters" />

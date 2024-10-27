@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * @Description: 接口返回结果
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/9/3
  */
 @Data

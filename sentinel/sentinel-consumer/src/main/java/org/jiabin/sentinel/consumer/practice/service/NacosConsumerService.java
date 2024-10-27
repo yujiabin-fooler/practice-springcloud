@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @Description: Nacos 服务消费者业务层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 @FeignClient(name = NacosConst.CLOUD_ALIBABA_SENTINEL_DASHBOARD, fallbackFactory = ConsumerFallBackFactory.class)

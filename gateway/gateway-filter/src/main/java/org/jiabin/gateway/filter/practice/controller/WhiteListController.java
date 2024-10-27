@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Description: 网关路由白名单控制器
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/23
  */
 @Slf4j

@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  * @Description: spring cloud route interceptor
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2018/10/19
  */
 public class AccessInterceptor extends ZuulFilter {

@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * @Description: 网关白名单处理类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/23
  */
 @Slf4j

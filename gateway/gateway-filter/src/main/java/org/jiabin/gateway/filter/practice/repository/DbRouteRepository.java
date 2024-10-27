@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Description: 数据库路由持久层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/19
  */
 @Slf4j

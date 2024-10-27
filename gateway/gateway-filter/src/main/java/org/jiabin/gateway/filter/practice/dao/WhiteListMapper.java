@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  * @Description: 网关路由白名单DAO接口
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/23
  */
 @Repository

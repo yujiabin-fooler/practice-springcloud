@@ -25,7 +25,7 @@ import java.util.List;
 
 /**
  * @Description: 鉴权拦截器
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/8
  */
 @Slf4j

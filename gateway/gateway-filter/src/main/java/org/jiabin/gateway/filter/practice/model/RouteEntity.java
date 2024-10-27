@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @Description: 路由实体类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/20
  */
 @Data

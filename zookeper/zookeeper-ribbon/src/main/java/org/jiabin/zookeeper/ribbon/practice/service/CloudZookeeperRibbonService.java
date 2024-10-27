@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * @Description: Spring Cloud Zookeeper Ribbon 服务消费者业务层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/2/24
  */
 @Service("cloudZookeeperRibbonService")

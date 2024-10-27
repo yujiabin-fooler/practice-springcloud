@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Description: nacos 服务提供者控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/1
  */
 @Slf4j

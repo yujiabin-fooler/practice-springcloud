@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: Spring cloud Zookeeper Ribbon 服务消费者控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/2/24
  */
 @RestController

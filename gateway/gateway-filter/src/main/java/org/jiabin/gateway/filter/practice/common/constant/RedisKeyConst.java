@@ -2,7 +2,7 @@ package org.jiabin.gateway.filter.practice.common.constant;
 
 /**
  * @Description: Redis 缓存 key 常量类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2022/8/25
  */
 public class RedisKeyConst {

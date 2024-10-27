@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @Description: 动态路由业务接口
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2021/10/19
  */
 public interface DynamicRouteService extends IService<RouteEntity> {

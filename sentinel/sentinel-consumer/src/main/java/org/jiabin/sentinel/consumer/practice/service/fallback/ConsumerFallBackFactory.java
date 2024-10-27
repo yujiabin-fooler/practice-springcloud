@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Description: Nacos 熔断工厂
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/3
  */
 @Component

@@ -2,7 +2,7 @@ package org.jiabin.nacos.server.consumer.feign.practice.constant;
 
 /**
  * @Description: Nacos 相关常量
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 public class NacosConst {

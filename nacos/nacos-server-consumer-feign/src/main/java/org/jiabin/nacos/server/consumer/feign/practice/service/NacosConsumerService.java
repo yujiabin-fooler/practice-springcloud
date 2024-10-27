@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @Description: Nacos 服务消费者业务层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 @FeignClient(NacosConst.NACOS_SERVER_PROVIDER_NAME)

@@ -441,7 +441,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description: spring cloud config client demo controller
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2018/11/5
  */
 @RefreshScope

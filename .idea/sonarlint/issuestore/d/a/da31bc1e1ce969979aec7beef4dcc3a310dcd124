@@ -1,0 +1,5 @@
+
+Œ	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌîªúJ$d524cc7b-7bcb-4041-b1c6-8d9aacc22d6a
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ß‹œç¬2J$dee1ffdd-8fda-4bcf-a860-84d47e5b7cbc
+|	java:S125&"<This block of commented-out lines of code should be removed.(„Î¥ùÿÿÿÿJ$b6fccceb-d608-4491-b6a2-1dcee4248413

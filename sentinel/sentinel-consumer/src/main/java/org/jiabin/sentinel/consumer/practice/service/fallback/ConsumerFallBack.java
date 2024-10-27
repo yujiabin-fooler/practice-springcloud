@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 
 /**
  * @Description: 熔断回调方法
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/2
  */
 @Slf4j

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Description: redis 工具类
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2018/10/29
  */
 @Component

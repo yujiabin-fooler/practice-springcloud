@@ -44,6 +44,9 @@
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/cloud-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/circuitbreaker/pom.xml" />
+        <option value="$PROJECT_DIR$/circuitbreaker/circuit-breaker-service/pom.xml" />
+        <option value="$PROJECT_DIR$/security-authorization/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

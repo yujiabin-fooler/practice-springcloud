@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Description: Nacos 服务消费者控制层
- * @Author: junqiang.lu
+ * @author jiabin.yu
  * @Date: 2020/12/1
  */
 @Slf4j

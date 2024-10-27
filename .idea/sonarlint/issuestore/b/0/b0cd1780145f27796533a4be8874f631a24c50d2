@@ -1,6 +1,6 @@
 
-‘	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç’Œ³þÿÿÿÿJ$f9fe7aea-5e64-4be2-8691-89ecc79c8889
+‘	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç’Œ³þÿÿÿÿJ$7c47d151-669c-4d73-acad-e83ebc5f1905
 ~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$0ca6888f-e663-4631-b64a-75966aad227f
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$69bfd3e7-ace0-4c67-9832-10b360896faa
 j
-java:S11720")Remove this unused method parameter "id".(„û……ûÿÿÿÿJ$53de5936-9123-4d74-9d77-6a4b00451ab4
+java:S11720")Remove this unused method parameter "id".(„û……ûÿÿÿÿJ$c04d0724-0dd9-4bde-990e-3b5f7ad57af3
